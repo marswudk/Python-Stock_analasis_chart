@@ -73,11 +73,6 @@ data = [
     Scatter(x=pdstock['日期'] , y=pdstock['最高價'], name='最高價')
 ]
 
-#書上寫的此段程式碼無法執行，尚未找到原因
-# plotly.offline.iplot({
-#     'data':data,
-#     'Layout': Layout(title='股票代碼:' + stockNo + '-' + year + '年個股統計圖')
-# })
 
 #於plotly官方網站上找到的方法
 fig = go.Figure(
